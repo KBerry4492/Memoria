@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Link",
+    "imageSrc": "./images/link.png",
+    "imageName": "link"
+  },
+  {
+    "id": 2,
+    "name": "Zelda",
+    "imageSrc": "./images/zelda.png",
+    "imageName": "zelda"
+  },
+  {
+    "id": 3,
+    "name": "Midna",
+    "imageSrc": "./images/midna.png",
+    "imageName": "midna"
+  },
+  {
+    "id": 4,
+    "name": "Impa",
+    "imageSrc": "./images/impa.png",
+    "imageName": "impa"
+  },
+  {
+    "id": 5,
+    "name": "Sheik",
+    "imageSrc": "./images/sheik.png",
+    "imageName": "sheik"
+  },
+  {
+    "id": 6,
+    "name": "Fi",
+    "imageSrc": "./images/fi.png",
+    "imageName": "fi"
+  },
+  {
+    "id": 7,
+    "name": "Ganondorf",
+    "imageSrc": "./images/ganondorf.png",
+    "imageName": "ganondorf"
+  },
+  {
+    "id": 8,
+    "name": "Ghirahim",
+    "imageSrc": "./images/ghirahim.png",
+    "imageName": "ghirahim"
+  },
+  {
+    "id": 9,
+    "name": "Darunia",
+    "imageSrc": "./images/darunia.png",
+    "imageName": "darunia"
+  },
+  {
+    "id": 10,
+    "name": "Princess Ruto",
+    "imageSrc": "./images/princess-ruto.png",
+    "imageName": "princess-ruto"
+  },
+  {
+    "id": 11,
+    "name": "Wizzro",
+    "imageSrc": "./images/wizzro.png",
+    "imageName": "wizzro"
+  },
+  {
+    "id": 12,
+    "name": "The Imprisioned",
+    "imageSrc": "./images/the-imprisioned.png",
+    "imageName": "the-imprisioned"
+  }  
+]
