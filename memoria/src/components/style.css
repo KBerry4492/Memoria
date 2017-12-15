@@ -1,0 +1,42 @@
+.picWrap{
+  border: dotted black 1px;
+  float: right;
+  padding: 5px;
+  width: 100%;
+  margin: 1%;
+}
+
+.scoreCard{
+  float: right;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 1%;
+  width: 100%;
+  background-color: grey;
+  color: white;
+}
+.scorebox{
+  padding: 0px 5px;
+  background-color: white;
+  color: black;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  margin: 10px;
+  float: left;
+  width: 20%;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 100%;
+  text-align: center;
+  background:#6CADDC;
+}
+.card > .img-container > img {
+  padding: 5px;
+  width: 80%
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css';
 
 import link from "./images/link.png"
 import zelda from "./images/zelda.png"
@@ -11,10 +12,10 @@ import fi from "./images/fi.png"
 import ruto from "./images/princess-ruto.png"
 import darunia from "./images/darunia.png"
 import sheik from "./images/sheik.png"
-import imprisioned from "./images/the-imprisoned.png"
+import imprisoned from "./images/the-imprisoned.png"
 
 const images = [
-	link, zelda, midna, impa, ganondorf, ghirahim, wizzro, fi, ruto, darunia, sheik, imprisioned
+	link, zelda, midna, impa, ganondorf, ghirahim, wizzro, fi, ruto, darunia, sheik, imprisoned
 ]
 
 console.log(images)
