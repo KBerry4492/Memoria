@@ -34,7 +34,7 @@ const ImageCard = props => {
 	)
 
   return (
-    <div className="card" dataid={props.dataid}>
+    <div className="card" dataid={props.dataid} onClick={props.handleImageShuffle}>
       <div className="img-container">
         <img alt={props.name} src={imgSrc} />
       </div>
