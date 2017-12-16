@@ -18,11 +18,11 @@ const images = [
 	link, zelda, midna, impa, ganondorf, ghirahim, wizzro, fi, ruto, darunia, sheik, imprisoned
 ]
 
-console.log(images)
+// console.log(images)
 
 const ImageCard = props => {
 
-	console.log(props.image)
+	// console.log(props.image)
 
 	let imgSrc = "";
 
@@ -34,9 +34,9 @@ const ImageCard = props => {
 	)
 
   return (
-    <div className="card" dataid={props.dataid} onClick={props.handleImageShuffle}>
+    <div  className="card" dataid={props.dataid} onClick={props.handleImageShuffle}>
       <div className="img-container">
-        <img alt={props.name} src={imgSrc} />
+        <img clicked={props.clicked} alt={props.name} src={imgSrc} />
       </div>
 	</div>
   );

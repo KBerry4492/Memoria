@@ -12,7 +12,7 @@ class PortraitContainer extends Component {
   };
 
   orderShuffle = imageArray => {
-      // let Array = 
+
       let i = imageArray.length -1;
       for (; i>0; i--){
         const j = Math.floor(Math.random() * i);
@@ -24,30 +24,23 @@ class PortraitContainer extends Component {
     }
 
   handleImageShuffle = event => {
-
+    // event.clicked = true;
+    console.log('-------------');
     console.log(event);
+    console.log(event.target);
 
-    
+    if (event.clicked === "false") {
+      this.setState({ playerScore: (this.state.playerScore)+1 });
+      
+    }
+
+    else{
+      this.setState({ playerScore: 0 });
+    }
+
 
     this.orderShuffle(this.state.images);
   }
-
-  // handleInputChange = event => {
-  //   console.log(event.target)
-
-  //   const {name, value } = event.target;
-
-  //   this.setState({
-  //     [name]: value
-  //   });
-
-  // };
-
-  // handleFormSubmit = event => {
-  //   event.preventDefault();
-
-  //   this.searchMovies(this.state.search);
-  // }
 
   render() {
     return (
@@ -68,6 +61,7 @@ class PortraitContainer extends Component {
                 image={image.imageName}
                 name={image.name}
                 handleImageShuffle={this.handleImageShuffle}
+                clicked="false"
               />
             </div>
 
